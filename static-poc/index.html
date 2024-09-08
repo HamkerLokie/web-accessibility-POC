@@ -12,7 +12,14 @@
 
     <h1>Keyboard Accessibility Example</h1>
 
-    <button id="openModalButton">Open Modal</button>
+    <button id="openModalButton" tabindex="1">Open Modal(focused first)</button>
+
+    <br><br>
+
+    <button id="third" tabindex="3">Button to be focused third</button>
+    <br><br>
+
+    <button id="openModalButton" tabindex="2">Button to be focused second</button>
 
     <div id="modal" class="modal">
         <h2 id="modalTitle">Modal Title</h2>

@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
   }
 
+  
   .modal {
     display: none;
     position: fixed;
